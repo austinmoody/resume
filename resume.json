@@ -1,0 +1,162 @@
+{
+  "bio": {
+    "firstName": "Austin",
+    "lastName": "Moody",
+    "email": {
+      "work": "austin.moody@siemens.com",
+      "personal": "austin.moody@gmail.com"
+    },
+    "phone": {
+      "work": "(423) 737-1938",
+      "personal": "(423) 741-2128"
+    },
+    "summary": "Experienced healthcare IT geek with a passion for finding creative but pragmatic ways to make things work. Self starter with an intricate understanding of how various systems interact in the healthcare setting. I love being handed two disparate systems who do not want to speak and making them do so whether using an interface engine, custom code, or a combination of both. Finding the most efficient and effective solution and implementing it in a way that makes everyone smile is what makes me tick.",
+    "location": {
+      "city": "Johnson City",
+      "countryCode": "US",
+      "state": "Tennessee"
+    },
+    "websites": {
+      "blog": "http://leakymllp.com"
+    }
+  },
+  "work": [
+    {
+      "company": "Siemens Healthcare",
+      "position": "Senior Project Engineer",
+      "website": "http://usa.healthcare.siemens.com/infrastructure-it/healthcare-it/care-coordination-connectivity/mobile-md-hie-hs",
+      "startDate": "2013-05-01",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
+        "company": "GE Healthcare / Caradigm",
+        "position": "Senor Lead Technical Services Engineer",
+        "website": "http://www.caradigm.com",
+        "startDate": "2011-01-01",
+        "endDate": "2013-05-01",
+        "summary": "Assisted clients in standing up their IHE standards based health exchanges. Involved with all aspects from initial setup and configuration to working with various sites in order to get them configured to be document sources, document consumers, or both. Intimately familiar with all aspects of the HIE product to ensure proper integration with our Clinical and Patient Portal products as well with external portals and EMR systems. During my time here I quickly became one of the *Go To* people others used to verify designs, troubleshoot queries, figure out that HL7 to CCD conversion that is bugging them, or just to tell a funny story.  I moved with this same position to Caradigm in June 2012 when GE Healthcare merged their health exchange group with Microsoft.",
+        "highlights": [
+            "Designed and implemented Health Information Exchange solutions based on customer use cases and IHE interoperability.",
+            "Demographic interfaces between various hospital and clinic sources and the HIE to populate the Master Patient Index (MPI) and XDS Registry.",
+            "Clinical document interfaces consisting of conversions of HL7 ORU and MDM data to CCD using Java and XSLT. Assisting third party EHR vendors with direct data submissions using IHE profiles (XDS.b, PIX, PDQ).",
+            "Custom SQL reporting of MPI data to monitor patient matching algorithms.",
+            "Worked to improve customer experience with new HIE document access solutions including clinician and patient portals.",
+            "Evaluated new engineering product releases for IHE interoperability and adherence to customer use cases."
+        ]
+    },
+    {
+        "company": "Lucentglow",
+        "position": "Developer & Consultant",
+        "website": "http://www.lucentglow.com",
+        "startDate": "2009-03-01",
+        "endDate": "2011-01-01",
+        "summary": "My time with Lucentglow exposed me to a wide variety to clinic systems ranging from Laboratory Information Systems, Electronic Medical Record systems, and Health Information Exchanges. Each employee worked independently on various projects, so being proactive and organized was a necessity. ",
+        "highlights": [
+            "Implementation of HL7 interfaces between EHR systems and various lab systems and vendors.",
+            "Assisted with development of an online payment system to post patient payments to medical billing system using Mirth.",
+            "Worked with local health exchange (CareSpark).",
+            "Implementation and testing of ADT interface to populate HIE MPI (Initiate) and XDS Registry as well as maintain HIE specific patient consent setup.",
+            "Aiding sources with configuration of their systems to be able to provide and retrieve documents to the XDS Repository using IHE standards.",
+            "Custom setups for sources without compliant EHR systems to convert data feeds into CCD documents to store in XDS Repository.",
+            "Worked on contract with MobileMD implementing custom interfaces to their health information exchange platform."
+        ]
+    },
+    {
+        "company": "MedAlliance Management Group, Inc.",
+        "position": "Information Systems Manager & Developer",
+        "website": "http://www.medalliance.md",
+        "startDate": "2003-08-01",
+        "endDate": "2009-03-01",
+        "summary": "I did two tours of duty at MedAlliance, the first while I was in college before I headed for the mountains of Vermont to work with IDX. A couple of years later I was lured back with the specific mission of leading the company through the HIPAA deadline for X12 claims submissions. Not only got the company over that hurdle but in the process created a custom, hosted medical claims management system that is still in use today.",
+        "highlights": [
+            "Developed applications designed to streamline medical billing processes. ",
+            "Designed and built custom EDI system for processing HIPAA compliant X12 claims using Ruby, Rails, and MySQL.",
+            "Responsible for AIX and Linux systems administration and end user system maintenance. ",
+            "Managed four person information services team.",
+            "Developed and maintained demographic and charge interfaces into GE Centricity (formally Groupcast) practice management system using custom Perl code and Mirth Connect."
+        ]
+    },
+    {
+        "company": "IDX Systems Corporation",
+        "position": "EDI Implementation Engineer",
+        "startDate": "2001-09-01",
+        "endDate": "2003-08-01",
+        "summary": "At IDX I received my first education in working for a large, publicly traded company. Using the deep background on medical billing gained at MedAlliance I was able to hit the ground running on the IDX eCommerce EDI platform which was just getting off the ground.",
+        "highlights": [
+            "Successfully launched EDI product working with team of developers to meet specific client needs.",
+            "Developed healthcare electronic X12 claims and Korn shell scripts for client EDI installations.",
+            "Created several in house scripting and web tools using Perl, Korn shell, XHTML, and CSS.",
+            "Documented new installation and support processes with assistance from internal focus group."
+        ]
+    },
+    {
+        "company": "MedAlliance Management Group, Inc.",
+        "position": "Developer",
+        "website": "http://www.medalliance.md",
+        "startDate": "1999-01-01",
+        "endDate": "2001-09-01",
+        "summary": "",
+        "highlights": []
+    },
+    {
+        "company": "Oconee Memorial Hospital",
+        "position": "Systems Analyst",
+        "website": "http://www.oconeemed.org/",
+        "startDate": "1994-08-01",
+        "endDate": "1998-08-01",
+        "summary": "",
+        "highlights": [
+            "SQL and Visual Basic developer. Responsible for Data General Unix, Hewlett Packard Unix, and Linux server administration. Maintained and troubleshot PC hardware.",
+            "Facilitated early adoption of HBOC (now McKesson) Star SQL releases.",
+            "Developed Visual Basic applications including:",
+            "- EMS dispatch and reporting system.",
+            "- Infection Control reporting system.",
+            "- Marketing survey database manager.",
+            "- Online testing system."
+        ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "East Tennessee State University",
+      "startDate": "1998-08-01",
+      "endDate": "2001-05-01",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "courses": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Interface Engines",
+      "keywords": [
+        "Expert with Mirth Connect",
+        "Vast experience with Corepoint and ConnectR",
+        "Working knowledge of Cloverleaf"
+      ]
+    },
+    {
+      "name": "Healthcare Systems",
+      "keywords": [
+        "Vast experience with Allscripts Enterprise, Medinformatix, and GE Centricity Practice (formally Groupcast)",
+        "Experience with Harvest Orchard and Labdaq systems",
+        "Have interfaced with Allscripts Enterprise, Nextgen, eClinicalWorks, GE Centricity EMR, Meditech, Sage, and Cerner"
+      ]
+    },
+    {
+        "name": "Programming/Scripting Languages",
+        "keywords": [
+            "Ruby",
+            "Perl",
+            "Javascript", 
+            "VB .Net", 
+            "Python", 
+            "PHP",
+            "Java"
+        ]
+    }
+  ]
+}
