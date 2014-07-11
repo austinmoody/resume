@@ -1,7 +1,5 @@
-resume
-======
-
 Austin Moody's Resume
+=====================
 
 This repo simply holds my resume in http://jsonresume.org/ format.
 
