@@ -1,11 +1,14 @@
 {
+  "meta": {
+    "theme": "autumn"
+  },
   "basics": {
     "name": "Austin L. Moody",
-    "label": "Software Engineer",
+    "label": "Solutions & Software Architect / Developer / Fixer Of Problems",
     "picture": "",
-    "email": "austin.moody@gmail.com",
+    "email": "austinmoody@protonmail.com",
     "phone": "(423) 741-2128",
-    "website": "http://austinmoody.org",
+    "website": "https://austinmoody.org",
     "summary": "Experienced healthcare IT geek with a passion for finding creative but pragmatic ways to make things work. Self starter with an intricate understanding of how various systems interact in the healthcare setting. I love being handed two disparate systems who do not want to speak and making them do so whether using an interface engine, custom code, or a combination of both. Finding the most efficient and effective solution and implementing it in a way that makes everyone smile is what makes me tick.",
     "location": {
       "address": "113 West 10th Avenue",
@@ -14,28 +17,70 @@
       "countryCode": "US",
       "region": "Tennessee"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "austinmoody",
+        "url": "https://github.com/austinmoody"
+      },
+      {
+      	"network": "LinkedIn",
+      	"username": "austinmoody",
+      	"url":"https://www.linkedin.com/in/austinmoody/"
+      }
+    ]
   },
   "work": [
     {
-      "company": "Cerner",
-      "position": "Senior Engineer, MobileMD",
-      "website": "http://cerner.com",
-      "startDate": "2013-05-01",
-      "summary": "Special Projects team member for the MobileMD HIE product.",
+      "name": "PointClickCare",
+      "company": "PointClickCare",
+      "position": "Solutions Architect, Audacious Inquiry",
+      "website": "https://ainq.com",
+      "startDate": "2016-12-01",
+      "summary": "I find the most effective way for our clients to improve care delivery using our platform.",
       "highlights": [
-				"Developed internal tools to increase team productivity.  Including an application to execute regression tests and compare HL7 data output.",
-				"You never want things to go wrong.  But when they do, I come in to figure out what happened, correct the issue, do data remediation, and work to make sure it doesn't happen again."
-			]
+        "The boring description is: I find the most effective way for our clients to improve care delivery using our platform.",
+        "The longer description is: I find ways to make things work when others say they shouldn't.  Got a system that has uneasy-to-get-at data?  Let me at it.  Need to send data to an unfamiliar REST or SOAP api that has you in knots?  I got you.",
+        "The \"Special Projects\" guy - Hard to solve problems that do not fit neatly onto a specific team.  I love them.",
+        "Experience building connectivity and tools against man MDM/MPI systems including: Nextgate, Initiate, and Verato.",
+        "I hate doing anyting twice.  Automate it.",
+        "Fake data generating, fun for the whole family. Quit tweaking that HL7 ADT in Notepad++ people get creative. As in...",
+        "- https://github.com/austinmoody/healthcare_phony",
+        "- https://github.com/austinmoody/adtgenerator",
+        "- https://github.com/austinmoody/Mockaroo834X12",
+        "- https://github.com/austinmoody/mockaroo2hl7v2",
+        "Formats don't scare me.  HL7, CCDA, X12... I like all flavors.",
+        "Mirth can be one of the most enjoyable tools to use.  Give me all the weird channels to build.  Experience creating just about anything you can think of. Including custom Java libraries used by channels.",
+        "Wrote several tools using C# and AWS resources such as DynamoDB, DocumentDB, Secrets, Elasticache, Lambda."
+      ]
     },
     {
+      "name": "Cerner",
+      "company": "Cerner",
+      "position": "Software Architect, MobileMD",
+      "website": "http://cerner.com",
+      "startDate": "2013-05-01",
+      "endDate": "2016-12-01",
+      "summary": "Special Projects team member for the MobileMD HIE product.",
+      "highlights": [
+        "Developed internal tools to increase team productivity.  Including an application to execute regression tests and compare HL7 data output.",
+        "You never want things to go wrong.  But when they do, I come in to figure out what happened, correct the issue, do data remediation, and work to make sure it doesn't happen again.",
+        "Started with Siemens HS which was aquired by Cerner Corporation effective February 2015.",
+        "Developed process to migrate CCD data from MobileMD HIE platform to Cerner HIE platform via IHE Protocols."
+      ]
+    },
+    {
+      "name": "GE Healthcare / Caradigm",
       "company": "GE Healthcare / Caradigm",
       "position": "Senior Lead Technical Services Engineer",
       "website": "http://www.caradigm.com",
       "startDate": "2011-01-01",
       "endDate": "2013-05-01",
-      "summary": "Assisted clients in standing up their IHE standards based health exchanges. Involved with all aspects from initial setup and configuration to working with various sites in order to get them configured to be document sources, document consumers, or both. Intimately familiar with all aspects of the HIE product to ensure proper integration with our Clinical and Patient Portal products as well with external portals and EMR systems. During my time here I quickly became one of the *Go To* people others used to verify designs, troubleshoot queries, figure out that HL7 to CCD conversion that is bugging them, or just to tell a funny story.  I moved with this same position to Caradigm in June 2012 when GE Healthcare merged their health exchange group with Microsoft.",
+      "summary": "Assisted clients in standing up their IHE standards based health exchanges.",
       "highlights": [
+        "Involved with all aspects from initial setup and configuration to working with various sites in order to get them configured to be document sources, document consumers, or both.",
+        "During my time here I quickly became one of the *Go To* people others used to verify designs, troubleshoot queries, figure out that HL7 to CCD conversion that is bugging them, or just to tell a funny story.",
+        "Intimately familiar with all aspects of the HIE product to ensure proper integration with our Clinical and Patient Portal products as well with external portals and EMR systems.",
         "Designed and implemented Health Information Exchange solutions based on customer use cases and IHE interoperability.",
         "Demographic interfaces between various hospital and clinic sources and the HIE to populate the Master Patient Index (MPI) and XDS Registry.",
         "Clinical document interfaces consisting of conversions of HL7 ORU and MDM data to CCD using Java and XSLT. Assisting third party EHR vendors with direct data submissions using IHE profiles (XDS.b, PIX, PDQ).",
@@ -45,6 +90,7 @@
       ]
     },
     {
+      "name": "Lucentglow",
       "company": "Lucentglow",
       "position": "Developer & Consultant",
       "website": "http://www.lucentglow.com",
@@ -62,6 +108,7 @@
       ]
     },
     {
+      "name": "MedAlliance Management Group, Inc.",
       "company": "MedAlliance Management Group, Inc.",
       "position": "Information Systems Manager & Developer",
       "website": "http://www.medalliance.md",
@@ -77,6 +124,7 @@
       ]
     },
     {
+      "name": "IDX Systems Corporation",
       "company": "IDX Systems Corporation",
       "position": "EDI Implementation Engineer",
       "website": "",
@@ -91,6 +139,7 @@
       ]
     },
     {
+      "name": "MedAlliance Management Group, Inc.",
       "company": "MedAlliance Management Group, Inc.",
       "position": "Developer",
       "website": "http://www.medalliance.md",
@@ -100,6 +149,7 @@
       "highlights": []
     },
     {
+      "name": "Oconee Memorial Hospital",
       "company": "Oconee Memorial Hospital",
       "position": "Systems Analyst",
       "website": "http://www.oconeemed.org/",
@@ -134,12 +184,36 @@
   "skills": [
     {
       "name": "Interface Engines",
-      "level": "Master",
+      "level": "",
       "keywords": [
         "Mirth Connect",
         "Corepoint",
         "ConnectR",
         "Cloverleaf"
+      ]
+    },
+    {
+      "name": "EMPI Systems",
+      "level": "",
+      "keywords": [
+        "Nextgate",
+        "Initiate",
+        "Verato"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Ruby",
+        "C#",
+        "Go",
+        "Perl",
+        "JavaScript",
+        "Python",
+        "PHP",
+        "Java",
+        "VB .Net"
       ]
     },
     {
@@ -152,26 +226,29 @@
       ]
     },
     {
-      "name": "Programming/Scripting Languages",
+      "name": "Interfaced With",
       "level": "",
       "keywords": [
-        "Ruby",
-        "C#",
-        "Perl",
-        "JavaScript",
-        "Python",
-        "PHP",
-        "Java",
-        "VB .Net"
+        "EPIC",
+        "Allscripts Enterprise",
+        "Nextgen",
+        "eClinicalWorks",
+        "Meditech",
+        "CPSI",
+        "Sage",
+        "Cerner",
+        "GE Centricity EMR"
       ]
     },
     {
       "name": "Healthcare Systems",
       "level": "",
       "keywords": [
-        "Vast experience with Allscripts Enterprise, Medinformatix, and GE Centricity Practice (formally Groupcast)",
-        "Experience with Harvest Orchard and Labdaq systems",
-        "Have interfaced with Allscripts Enterprise, Nextgen, eClinicalWorks, GE Centricity EMR, Meditech, Sage, and Cerner"
+        "Allscripts Enterprise",
+        "Medinformatix",
+        "GE Centricity Practice (formally Groupcast)",
+        "Harvest Orchard",
+        "Labdaq systems"
       ]
     }
   ],
